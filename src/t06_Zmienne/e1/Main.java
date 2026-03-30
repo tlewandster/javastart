@@ -1,4 +1,6 @@
-public class t03Zmienne1 {
+package t06_Zmienne.e1;
+
+public class Main {
     static void main(String[] args) {
         String marka = "Polski Fiat";
         String model = "125p";

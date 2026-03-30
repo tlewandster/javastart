@@ -1,4 +1,6 @@
-public class t03Zmienne2 {
+package t06_Zmienne.e2;
+
+public class Main {
     public static void main(String[] args) {
         String url = "http://javastart.pl";
         url = "https://javastart.pl";
