@@ -1,4 +1,4 @@
-package t02_Typy_danych.e2;
+package t05_Typy_danych.e2;
 
 public class Main {
     static void main() {

@@ -1,4 +1,4 @@
-package t01_Hello_world.e2;
+package t03_Hello_world.e2;
 
 public class Main {
     static void main() {
