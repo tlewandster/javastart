@@ -2,7 +2,7 @@ package t15_Enkapsulacja.e1;
 
 class DiscountService {
     public double calculateDiscountPrice(Client client, double price) {
-        if(client.isPremium())
+        if(client.premium())
             return calculatePremiumDiscount(price);
         else
             return calculateStandardDiscount(price);
@@ -34,11 +34,11 @@ class DiscountService {
 
     private String clientWelcome(Client client) {
         if (client.hasFirstName() && client.hasLastName()) {
-            return "Witaj " + client.getFirstName() + " " + client.getLastName();
+            return "Witaj " + client.firstName() + " " + client.lastName();
         } else if (client.hasFirstName()) {
-            return "Witaj " + client.getFirstName();
+            return "Witaj " + client.firstName();
         } else if (client.hasLastName()) {
-            return "Witaj pani/panie " + client.getLastName();
+            return "Witaj pani/panie " + client.lastName();
         } else {
             return "Witaj nieznajomy";
         }

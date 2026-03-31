@@ -1,7 +1,7 @@
 package t15_Enkapsulacja.e1;
 
 class DiscountApp {
-    public static void main(String[] args) {
+    static void main() {
         DiscountService discountService = new DiscountService();
 
         Client client1 = new Client("Jan", "Kowalski", true);
