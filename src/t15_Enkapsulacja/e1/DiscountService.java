@@ -1,4 +1,4 @@
-package t15_Enkapulacja.e1;
+package t15_Enkapsulacja.e1;
 
 class DiscountService {
     public double calculateDiscountPrice(Client client, double price) {

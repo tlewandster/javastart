@@ -1,4 +1,4 @@
-package t15_Enkapulacja.e1;
+package t15_Enkapsulacja.e1;
 
 class DiscountApp {
     public static void main(String[] args) {
