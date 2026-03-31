@@ -2,17 +2,13 @@ package t15_Enkapsulacja.e2;
 
 public class Showing {
 
-    private String movieTitle;
-    private String movieType;
-    private int movieTime;
-    private int ageRequired;
-    private int maxSeats;
+    private final String movieTitle;
+    private final int ageRequired;
+    private final int maxSeats;
     private int freeSeats;
 
-    public Showing(String movieTitle, String movieType, int movieTime, int ageRequired, int maxSeats, int freeSeats) {
+    public Showing(String movieTitle, int ageRequired, int maxSeats, int freeSeats) {
         this.movieTitle = movieTitle;
-        this.movieType = movieType;
-        this.movieTime = movieTime;
         this.ageRequired = ageRequired;
         this.maxSeats = maxSeats;
         this.freeSeats = freeSeats;
@@ -22,48 +18,12 @@ public class Showing {
         return movieTitle;
     }
 
-    public void setMovieTitle(String movieTitle) {
-        this.movieTitle = movieTitle;
-    }
-
-    public String getMovieType() {
-        return movieType;
-    }
-
-    public void setMovieType(String movieType) {
-        this.movieType = movieType;
-    }
-
-    public int getMovieTime() {
-        return movieTime;
-    }
-
-    public void setMovieTime(int movieTime) {
-        this.movieTime = movieTime;
-    }
-
     public int getAgeRequired() {
         return ageRequired;
     }
 
-    public void setAgeRequired(int ageRequired) {
-        this.ageRequired = ageRequired;
-    }
-
-    public int getMaxSeats() {
-        return maxSeats;
-    }
-
-    public void setMaxSeats(int maxSeats) {
-        this.maxSeats = maxSeats;
-    }
-
     public int getFreeSeats() {
         return freeSeats;
-    }
-
-    public void setFreeSeats(int freeSeats) {
-        this.freeSeats = freeSeats;
     }
 
     void bookSeat() {

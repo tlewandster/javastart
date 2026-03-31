@@ -2,9 +2,9 @@ package t15_Enkapsulacja.e2;
 
 public class Ticket {
     static int nextId = 0;
-    private int id;
-    private String personData;
-    private String movieTitle;
+    private final int id;
+    private final String personData;
+    private final String movieTitle;
 
     public Ticket(int id, String personData, String movieTitle) {
         this.id = id;
@@ -16,11 +16,11 @@ public class Ticket {
         if (showing.getFreeSeats() == 0) {
             System.out.println("Brak wolnych miejsc na seans");
             return null;
-        } else if (person.getAge() < showing.getAgeRequired()) {
+        } else if (person.age() < showing.getAgeRequired()) {
             System.out.println("Film dostępny dla osób powyżej " + showing.getAgeRequired() + " lat");
             return null;
         } else {
-            String personData = person.getFirstName() + " " + person.getLastName();
+            String personData = person.firstName() + " " + person.lastName();
             String movieTitle = showing.getMovieTitle();
             showing.bookSeat();
             return new Ticket(++nextId, personData, movieTitle);
