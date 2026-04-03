@@ -1,6 +1,7 @@
 package library.model;
 
 public class Book {
+    // Pola
     private String title;
     private String author;
     private int releaseDate;
@@ -8,7 +9,9 @@ public class Book {
     private String publisher;
     private String isbn;
 
-    public Book(String title, String author, int releaseDate, int pages, String publisher, String isbn) {
+    // Konstruktory
+    public Book(String title, String author, int releaseDate,
+                int pages, String publisher, String isbn) {
         this(title, author, releaseDate, pages, publisher);
         this.isbn = isbn;
     }
@@ -21,44 +24,13 @@ public class Book {
         this.publisher = publisher;
     }
 
+    // settery i gettery
     public String getTitle() {
         return title;
     }
 
     public void setTitle(String title) {
         this.title = title;
-    }
-
-    public String getAuthor() {
-        return author;
-    }
-
-    public void setAuthor(String author) {
-        this.author = author;
-    }
-
-    public int getReleaseDate() {
-        return releaseDate;
-    }
-
-    public void setReleaseDate(int releaseDate) {
-        this.releaseDate = releaseDate;
-    }
-
-    public int getPages() {
-        return pages;
-    }
-
-    public void setPages(int pages) {
-        this.pages = pages;
-    }
-
-    public String getPublisher() {
-        return publisher;
-    }
-
-    public void setPublisher(String publisher) {
-        this.publisher = publisher;
     }
 
     public String getIsbn() {
@@ -69,10 +41,43 @@ public class Book {
         this.isbn = isbn;
     }
 
+    public String getPublisher() {
+        return publisher;
+    }
+
+    public void setPublisher(String publisher) {
+        this.publisher = publisher;
+    }
+
+    public int getPages() {
+        return pages;
+    }
+
+    public void setPages(int pages) {
+        this.pages = pages;
+    }
+
+    public int getReleaseDate() {
+        return releaseDate;
+    }
+
+    public void setReleaseDate(int releaseDate) {
+        this.releaseDate = releaseDate;
+    }
+
+    public String getAuthor() {
+        return author;
+    }
+
+    public void setAuthor(String author) {
+        this.author = author;
+    }
+
     public void printInfo() {
-        String info = title + "; " + author + "; " + releaseDate + "; " + pages + "; " + publisher;
+        String info = title + "; " + author + "; " + releaseDate + "; "
+                + pages + "; " + publisher;
         if (isbn != null) {
-            info += "; " + isbn;
+            info = info + "; " + isbn;
         }
         System.out.println(info);
     }
