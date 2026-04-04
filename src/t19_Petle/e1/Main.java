@@ -1,4 +1,4 @@
-package t019_Petle.e1;
+package t19_Petle.e1;
 
 import java.util.Scanner;
 
