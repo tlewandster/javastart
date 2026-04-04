@@ -1,4 +1,4 @@
-package t019_Petle.e2;
+package t19_Petle.e2;
 
 public class Patient {
     private String firstName;
