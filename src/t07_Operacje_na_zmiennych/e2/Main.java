@@ -1,4 +1,6 @@
-public class t04OperacjeNaZmiennych2 {
+package t07_Operacje_na_zmiennych.e2;
+
+public class Main {
     static void main(String[] args) {
         var netto = Math.random()*100;
         var vat = netto * 0.23;

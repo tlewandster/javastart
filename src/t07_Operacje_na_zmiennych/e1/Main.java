@@ -1,4 +1,6 @@
-public class t04OperacjeNaZmiennych1 {
+package t07_Operacje_na_zmiennych.e1;
+
+public class Main {
     static void main(String[] args) {
         int x  = (int) (Math.random() * 100);
         int y  = (int) (Math.random() * 100);
