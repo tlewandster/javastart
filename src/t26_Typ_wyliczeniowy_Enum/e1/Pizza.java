@@ -28,10 +28,10 @@ public enum Pizza {
     }
 
     public static String menu() {
-        String menu = "";
+        StringBuilder menu = new StringBuilder();
         for (Pizza pizza : Pizza.values()) {
-            menu += pizza.ordinal() + ". " + pizza.name() + " - " + pizza + "\n";
+            menu.append(pizza.ordinal()).append(". ").append(pizza.name()).append(" - ").append(pizza).append("\n");
         }
-        return menu;
+        return menu.toString();
     }
 }
