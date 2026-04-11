@@ -1,4 +1,6 @@
-public class t05KlasyIObiekty1 {
+package t08_Klasy_i_obiekty.e1;
+
+public class Main {
     static void main(String[] args) {
         Employee person1 = new Employee();
         person1.firstName = "Tolek";

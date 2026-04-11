@@ -1,9 +1,11 @@
-public class t07Konstruktory2_House {
+package t10_Metody_i_konstruktory.e4;
+
+public class House {
 
     double litersOfWater;
     double litersOfOil;
 
-    public t07Konstruktory2_House(double litersOfWater, double litersOfOil) {
+    public House(double litersOfWater, double litersOfOil) {
         this.litersOfWater = litersOfWater;
         this.litersOfOil = litersOfOil;
     }

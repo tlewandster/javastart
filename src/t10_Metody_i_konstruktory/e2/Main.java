@@ -1,4 +1,6 @@
-public class t07Metody2 {
+package t10_Metody_i_konstruktory.e2;
+
+public class Main {
     static void main(String[] args) {
 
         double mm = (int) (Math.random() * 100);

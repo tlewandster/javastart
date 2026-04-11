@@ -1,12 +1,14 @@
-public class t08PrzeciążanieMetodIThis2_Dice {
+package t11_Przeciążanie_metod_i_this.e2;
+
+public class Dice {
 
     int result;
 
-    t08PrzeciążanieMetodIThis2_Dice() {
+    Dice() {
         roll();
     }
 
-    t08PrzeciążanieMetodIThis2_Dice(int result) {
+    Dice(int result) {
         this.result = result;
     }
 

@@ -1,9 +1,11 @@
-public class t07Konstruktory1_Product {
+package t10_Metody_i_konstruktory.e3;
+
+public class Product {
 
     String name;
     String producer;
 
-    t07Konstruktory1_Product(String name, String producer) {
+    Product(String name, String producer) {
         this.name = name;
         this.producer = producer;
     }

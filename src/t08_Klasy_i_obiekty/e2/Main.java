@@ -1,4 +1,6 @@
-public class t05KlasyIObiekty3 {
+package t08_Klasy_i_obiekty.e2;
+
+public class Main {
     static void main(String[] args) {
         Plant plant1 = new Plant();
         plant1.name = "Kaktus";

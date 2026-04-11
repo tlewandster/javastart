@@ -1,10 +1,12 @@
-public class t07Konstruktory1_Offer {
+package t10_Metody_i_konstruktory.e3;
 
-    t07Konstruktory1_Product product;
+public class Offer {
+
+    Product product;
     double price;
     boolean special;
 
-    t07Konstruktory1_Offer(t07Konstruktory1_Product product, double price, boolean special) {
+    Offer(Product product, double price, boolean special) {
         this.product = product;
         this.price = price;
         this.special = special;

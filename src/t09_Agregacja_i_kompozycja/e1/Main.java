@@ -1,4 +1,6 @@
-public class t06AgregacjaIKompozycja1 {
+package t09_Agregacja_i_kompozycja.e1;
+
+public class Main {
     static void main(String[] args) {
         Address address1 = new Address();
         address1.street = "Deszczowa";

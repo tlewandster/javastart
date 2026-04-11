@@ -1,4 +1,6 @@
-public class t08PrzeciążanieMetodIThis1_Calculator {
+package t11_Przeciążanie_metod_i_this.e1;
+
+public class Calculator {
 
     int add(int a, int b) {
         return a + b;

@@ -1,4 +1,6 @@
-public class t06AgregacjaIKompozycja2 {
+package t09_Agregacja_i_kompozycja.e2;
+
+public class Main {
 
     static void main(String[] args) {
         Auction auction1 = new Auction();

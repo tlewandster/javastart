@@ -1,3 +1,5 @@
+package t10_Metody_i_konstruktory.e2;
+
 public class t07Metody2_timeUnitConverter {
     //zdefiniuj metody związane z przeliczaniem czasu:
     //
