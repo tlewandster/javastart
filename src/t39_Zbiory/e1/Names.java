@@ -8,7 +8,7 @@ import java.util.List;
 import java.util.TreeSet;
 
 public class Names {
-    private static final Path fileName = Path.of("src/t39_Zbiory.e1/namespl.txt");
+    private static final Path fileName = Path.of("src/t39_Zbiory/e1/namespl.txt");
 
     static void main() {
         TreeSet<String> names = getNamesFromFile();
