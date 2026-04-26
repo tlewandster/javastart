@@ -1,4 +1,4 @@
-package t40_Kolejki.e1;
+package t41_Kolejki.e1;
 
 public class Task implements Comparable<Task>{
     @Override

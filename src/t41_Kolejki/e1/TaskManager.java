@@ -1,4 +1,4 @@
-package t40_Kolejki.e1;
+package t41_Kolejki.e1;
 
 import java.util.PriorityQueue;
 import java.util.Queue;
